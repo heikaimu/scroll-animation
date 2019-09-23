@@ -14,14 +14,14 @@
 </body>
 
 <script src="./scroll-animation.js"></script>
-  <script>
-    var scrollAnimation = new ScrollAnimation({
-      className: "scroll-animation",
-      inOffset: 100,
-      outOffset: 100,
-      repeat: true
-    });
-  </script>
+<script>
+  var scrollAnimation = new ScrollAnimation({
+    className: "scroll-animation",
+    inOffset: 100,
+    outOffset: 100,
+    repeat: true
+  });
+</script>
 ```
 
 ### 标签配置

@@ -28,6 +28,7 @@
 首先给标签加上一个className，默认值为scroll-animation，此步骤必填
 
 然后添加动画效果名：
+
 所有的特效都基于Animate.css, 可以自己参考网站上的效果自行配置
 [animate.css](https://daneden.github.io/animate.css/)
 in-mode是入场动画名，默认值fadeInDown

@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" href="./animate.min.css">
@@ -79,6 +79,27 @@
 
     .content-box .img img {
       max-width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+      .content-box {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 30px;
+        display: block;
+      }
+      .content-box .info {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+      .content-box h3 {
+      padding-bottom: 20px;
+      font-size: 20px;
+    }
+
+    .content-box p {
+      font-size: 12px;
+    }
     }
   </style>
 </head>

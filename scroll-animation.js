@@ -23,6 +23,7 @@ function ScrollAnimation(params) {
 		this.scrollDistance = document.documentElement.scrollTop || document.body.scrollTop;
 		// 获取所有动画标签
 		var animationItems = document.getElementsByClassName(this.className);
+		console.log(this.scrollDistance);
 		// 遍历所有标签
 		for (var i = 0; i < animationItems.length; i++) {
 			// 标签
@@ -70,9 +71,9 @@ function ScrollAnimation(params) {
 		}
 	}
 
+	window.onload = this.animation();
 	var _this = this;
-	document.addEventListener('scroll', function () {
-		_this.animation();
-	});
-	window.onresize = window.onload = this.animation();
+	window.onscroll = function() {
+		_this.animation()
+	}
 }

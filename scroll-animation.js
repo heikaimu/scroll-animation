@@ -8,7 +8,7 @@ function ScrollAnimation(params) {
 	this.inOffset = params.inOffset || 0;
 	this.outOffset = params.outOffset || 0;
 	// 需要动画的标签class name
-	this.className = params.className || "";
+	this.className = params.className || "scroll-animation";
 	// 是否循环
 	this.repeat = params.repeat;
 
